@@ -1,0 +1,324 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+ /* header section    */
+   
+}
+header nav{
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 0.1);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.mar1{
+    font-size: 25px;
+    
+}
+
+.searchbox1{
+    position: relative;
+}
+.textonimg{
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+.searchbx{
+    width: 35vw;
+    border-radius: 20px;
+}
+.hearti{
+    font-size: 19px;
+}
+.inputform{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/* page 1 section */
+.page1{
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+.buttonlarge{
+    
+    transition: 0.5s;
+}
+.buttonlarge:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+}
+.titlepremium{
+    font-size: 50px;
+}
+.imgbanner{
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+/* company logo */
+
+.comlogo{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.comimg{
+    opacity: 0.4;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.comimg:hover{
+    opacity: 1;
+}
+
+
+/* featured products */
+.featured{
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.imgtext01{
+    position: relative;
+}
+.iconimg{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    
+}
+.heart100 , .cart100{
+    border-radius: 50%;
+    
+     background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+  
+  
+   
+
+   
+    
+    
+}
+.cart100{
+     padding-top:  0.8vh;
+    padding-left: 0.9vw;
+    padding-right: 0.9vw;
+    padding-bottom: 0.8vh; 
+   
+
+}
+
+.heart100{
+    padding-top:  0.8vh;
+    padding-left: 0.9vw;
+    padding-right: 0.9vw;
+    padding-bottom: 0.8vh;
+}
+.featured001{
+    margin-top: 50px;
+     margin-bottom: 50px;
+}
+.imgfeatured{
+    border-radius: 20px;
+}
+.cardfea{
+    border: none;
+    
+}
+.btnprev{
+    background-color: blue;
+    height: 10%;
+    width: 20px;
+    margin: auto;
+    position: absolute;
+  
+}
+.btnnext{
+    background-color: blue;
+    height: 10%;
+    width: 20px;
+    margin: auto;
+}
+
+/* whyus */
+
+.iconcheck{
+    font-size: 22px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.getbt{
+    transition: 0.5s;
+}
+.getbt:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+}
+.whytitle{
+    font-size: 50px;
+}
+
+.whyus{
+    margin-top: 110px;
+
+}
+/* popular items */
+
+.popular{
+    /* background-color: #F9F9F9; */
+    margin-top: 80px;
+}
+.populartitle{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+/* top categories */
+.toptitle001{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.cardround00001{
+    border: none;
+ 
+   margin-top: 50px;
+    margin-bottom: 50px;
+
+   
+}
+.cat1{
+    margin-top: 15px;
+}
+
+.imground0001{
+    border-radius: 50%;
+    
+    
+}
+/* what our customer says */
+.customer{
+    margin-top: 140px;
+    margin-bottom: 90px;
+}
+.cardcus{
+    margin-top: 60px;
+
+}
+/* footer section */
+footer{
+    color: white;
+    background-color: #1A2224;
+}
+.searchbox07{
+    position: relative;
+    min-width: 500px;
+   
+
+   
+    
+}
+.op{
+    height: 50px;
+    border-radius: 40px;
+    
+}
+.op1{
+    border-radius: 30px;
+  position: relative;
+  top: 6px;
+margin-right: 5px;
+
+  
+    
+}
+.buttonfot{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
+}
+
+.fot1{
+    padding-top: 90px;
+    margin-bottom: 80px;
+}
+
+.mar0 ul{
+    list-style: none;
+    margin-top: 10px;
+   
+}
+.mar0 ul a{
+    text-decoration: none;
+    color: white;
+   
+}
+.mar0 ul a li{
+    margin-top: 10px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+.mar0 ul a li:hover{
+    opacity: 1;
+}
+.mar0{
+    margin-top: 10px;
+}
+
+.fot2{
+    padding-top: 70px;
+}
+
+.foti{
+    margin-left: 8px;
+    margin-right: 9px;
+    color: white;
+
+    opacity: 1;
+    transition: 0.5s;
+}
+.foti:hover{
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

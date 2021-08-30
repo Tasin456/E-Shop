@@ -1,0 +1,98 @@
+/* breadcumb section */
+
+.breadcumb{
+    background-color: #FAFAFA;
+}
+.breadpad{
+    padding: 70px 70px;
+}
+
+
+/* search section */
+
+.searcat{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+/* category html */
+/* category section */
+.category{
+    margin-bottom: 50px;
+}
+
+/* sales html */
+/* sales section */
+.textsorry{
+
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+
+
+/* user html */
+
+
+/* account link section */
+
+.linksaccount{
+    margin-top: 90px;
+ margin-bottom: 90px;
+}
+
+.links ul li a{
+    
+    color: black;
+}
+
+/* account09 section */
+.btnsave{
+    transition: 0.5s;
+    
+}
+
+.btnsave:hover{
+    background-color: white;
+    color: black;
+
+}
+.account09{
+    margin-bottom: 70px;
+}
+
+
+/* wishlist html */
+
+/* wishlist section */
+
+.wishlist{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+
+/* checkout html */
+/* checkout section */
+.checkout{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+/* logout html */
+
+.sign{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.sign00{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btnsave1:hover .sign00{
+    color: black;
+
+}
+

@@ -1,0 +1,22 @@
+@media  (max-width:1050px) {
+    .searchbox07{
+        min-width: 400px;
+    }
+   header{
+       width: 100%;
+   }
+    
+}
+@media  (max-width:455px){
+    .searchbox07{
+        min-width: 250px;
+    }
+    .op1{
+        background-color: blue;
+        color: white;
+    }
+    .lastfot{
+        display: flex;
+        flex-direction: column;
+    }
+}
